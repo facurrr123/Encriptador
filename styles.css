@@ -28,7 +28,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    min-height: 95vh;
+    min-height: 92vh;
     margin-bottom: 0px;
 }
 
@@ -130,7 +130,7 @@ textarea::placeholder{
 .resultado{
     width: 26%;
     max-width: 34%;
-    min-height: 700px;
+    min-height: 660px;
     border-radius: 32px;
     background-color: #ffffff;
     margin: 10px 0px 40px 0px;
@@ -206,7 +206,7 @@ textarea::placeholder{
     color:#D8DFE8
 }
 footer{
-    margin-top: -25px;
+    margin-top: -15px;
     margin-bottom: 0px;
 }    
 .copyright{
@@ -274,7 +274,7 @@ footer{
    
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 820px){
     .botonEnc, .botonDes{
         width: 280px;
     }
@@ -290,13 +290,18 @@ footer{
         align-items: center;
         justify-content: space-between;
         height: 20vh;
+        margin-bottom: 20px;
     }
     .botonEnc, .botonDes{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .resultado{
         min-height: auto;
+        padding-top: 10px;
     }
     .contenedor{
         height: 60vh;
@@ -307,3 +312,4 @@ footer{
     }
    
 }   
+
