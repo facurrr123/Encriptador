@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo"><img  class="logo" src="./img/Logo.png" alt="Logo de Alura latam"></h1>
+    </header>
+    <main>
+        <section class="contenedor-pricipal">
+            <div class="contenedor">
+                <textarea name="" id="texto" cols="140" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="contenedor-texto">
+                    <img class="vector" src="./img/Vector.png" alt=""><p>Solo letras minúsculas y sin acentos</p></div>
+                <div class="contenedor-botones"><button type="submit" class="botonEnc" id="encriptar">Encriptar</button>
+                    <button class="botonDes" type="submit" id="desencriptar">Desencriptar</button></div>
+            </div>
+        <div class="resultado" id="pantalla">
+            <img class="muñeco" id="imagenMuneco" src="./img/Muñeco.png" alt="persona observando con una lupa">
+            <p id="mensaje" class="alerta">Ningún mensaje fue encontrado</p>
+            <p id="tex" class="escritura">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Juan Facundo Cremona - 2024</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
